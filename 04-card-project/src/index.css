@@ -17,9 +17,44 @@ html,body{
 }
 
 .card{
-  height: 400px;
-  width: 300px;
+  height: 600px;
+  width: 600px
   background-color: white;
-  border-radius: 20px;
-  padding: 30px;
+}
+
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: gray;
+}
+
+.center{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.center2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.c21{
+  padding: 10px;
+  border-radius: 30px;
+  background-color: gray
+  
+}
+
+.c22{
+  padding: 10px;
+  border-radius: 30px;
+  background-color: gray
 }
