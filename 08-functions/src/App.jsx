@@ -1,13 +1,11 @@
 import React from 'react'
 import './index.css'
 
-function onscrollhandler(){
-  console.log('scrolling')
-}
+function
 
 const App = () => {
   return (
-    <div className='og' onWheel={onscrollhandler}>
+    <div className='og'>
      <div className="page1"></div>
      <div className="page2"></div>
      <div className="page3"></div>
